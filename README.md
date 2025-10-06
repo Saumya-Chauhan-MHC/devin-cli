@@ -93,6 +93,28 @@ export $(grep -v '^#' .env | xargs)
 
 ## Usage
 
+| Step           | Command                                                                    | Description                                                         |
+| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| List issues | `devin-cli issues list --repo Saumya-Chauhan-MHC/devin-demo-service`       | Lists open GitHub issues                                            |
+| Scope issue | `devin-cli issues scope -n 1 --repo Saumya-Chauhan-MHC/devin-demo-service` | Starts a Devin session to analyze the issue                         |
+| Confidence  | *(auto)*                                                                   | Devin prints the full scoping plan and native confidence (🟢 🟡 🔴) |
+| Create PR    | Press `y` when prompted                                                    | Devin creates a branch and opens a PR through its GitHub App        |
+
+Example CLI output:
+
+```
+Devin’s scoping
+Current: /health returns 500 due to NoneType in probe
+Requested: Handle probe=None safely
+Tests: probe=None, probe={'status':'fail'}
+Confidence: High 🟢 — straightforward fix
+
+✅ PR Created
+https://github.com/Saumya-Chauhan-MHC/devin-demo-service/pull/9
+```
+
+---
+
 ### List open issues
 
 ```bash
