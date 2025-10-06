@@ -176,7 +176,7 @@ You can fork or clone that repo to try the CLI end-to-end without setting up you
 ## Demo Video
 
 See the 5-minute walkthrough:
-[**Demo Script + Video Guide**](https://www.loom.com/share/83ca12c2be174387a53ad76f60e5d7b3?sid=b20a888e-99e7-4311-8ad1-2d2efad2f20a) 
+[**Devin CLI Demo/Video Guide**](https://www.loom.com/share/83ca12c2be174387a53ad76f60e5d7b3?sid=b20a888e-99e7-4311-8ad1-2d2efad2f20a) 
 
 ---
 
