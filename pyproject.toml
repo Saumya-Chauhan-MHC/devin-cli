@@ -1,0 +1,20 @@
+[project]
+name = "devin-cli"
+version = "0.1.0"
+description = "Devin + GitHub Issues CLI: scope, confidence, and optional PR"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "typer==0.12.5",
+  "click==8.1.7",
+  "requests==2.32.3",
+  "rich==13.9.2",
+  "tabulate==0.9.0"
+]
+
+[project.scripts]
+devin-cli = "devin_cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
