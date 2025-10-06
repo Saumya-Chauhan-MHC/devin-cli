@@ -22,7 +22,7 @@ It connects your GitHub repository to **Devin**, automatically scoping issues, e
 ### Clone this repository
 
 ```bash
-git clone https://github.com/<your-username>/devin-cli.git
+git clone https://github.com/Saumya-Chauhan-MHC/devin-cli.git
 cd devin-cli
 ```
 
