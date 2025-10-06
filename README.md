@@ -204,4 +204,4 @@ Follow [PEP 8](https://peps.python.org/pep-0008/) and include type annotations.
 
 ## License
 
-MIT License © 2025 Your Name — Feel free to use and adapt for internal DevOps automation.
+MIT License © 2025 Saumya Chauhan — Feel free to use and adapt for internal DevOps automation.
