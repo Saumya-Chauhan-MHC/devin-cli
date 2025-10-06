@@ -161,7 +161,7 @@ a lightweight Python microservice with 3 example issues:
 #3  Enhancement: Structured JSON logs + request_id propagation
 ```
 
-You can fork or clone that repo to try the CLI end-to-end without setting up your own project.
+You can fork this repo to your own GitHub account (recommended for testing PRs) or clone it locally to explore the code.
 
 ---
 
